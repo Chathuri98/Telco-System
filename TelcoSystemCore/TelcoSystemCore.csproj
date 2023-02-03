@@ -97,7 +97,6 @@
     <Compile Include="Controller\ComSectionsMastersController.cs" />
     <Compile Include="Controller\AccountBillingController.cs" />
     <Compile Include="Controller\CusAccountDNController.cs" />
-    <Compile Include="Controller\CustomerAccountController.cs" />
     <Compile Include="Controller\CustomerController.cs" />
     <Compile Include="Controller\LocationProfileController.cs" />
     <Compile Include="Controller\PnbsMenuRolesUsersController.cs" />
@@ -123,12 +122,10 @@
     <Compile Include="Domain\ComSectionsMasters.cs" />
     <Compile Include="Domain\CusAccountDN.cs" />
     <Compile Include="Domain\Customer.cs" />
-    <Compile Include="Domain\CustomerAccount.cs" />
     <Compile Include="Domain\CustomerAccountDN.cs" />
     <Compile Include="Domain\DirectoryNumbers.cs" />
     <Compile Include="Domain\LocationProfile.cs" />
     <Compile Include="Domain\PnbsMenuRolesUsers.cs" />
-    <Compile Include="Domain\PnbsUsers.cs" />
     <Compile Include="Domain\ReceiptDetail.cs" />
     <Compile Include="Domain\ReceiptMaster.cs" />
     <Compile Include="Infrastructure\AccountLocationDAO.cs" />
@@ -151,7 +148,6 @@
     <Compile Include="Domain\ReceiptUpload.cs" />
     <Compile Include="Infrastructure\AccountBillingDAO.cs" />
     <Compile Include="Infrastructure\CusAccountDNDAO.cs" />
-    <Compile Include="Infrastructure\CustomerAccountDAO.cs" />
     <Compile Include="Infrastructure\CustomerDAO.cs" />
     <Compile Include="Infrastructure\DirectoryNumbersDAO.cs" />
     <Compile Include="Infrastructure\LocationProfileDAO.cs" />

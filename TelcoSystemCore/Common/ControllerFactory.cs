@@ -42,11 +42,7 @@ namespace TelcoSystemCore.Common
         }
 
         //CustomerAccount
-        public static ICustomerAccountController CreateCustomerAccountDetailController()
-        {
-            ICustomerAccountController customerAccountDetailController = new CustomerAccountControllerImpl();
-            return (ICustomerAccountController)customerAccountDetailController;
-        }
+
 
         //Additional data pack request
         public static IAdditionalDataPackRequestController CreateAdditionalDataPackRequestDetailController()
@@ -122,7 +118,7 @@ namespace TelcoSystemCore.Common
             IPnbsMenuRolesUsersController pnbsMenuRolesUsersDetailController = new PnbsMenuRolesUsersControllerImpl();
             return (IPnbsMenuRolesUsersController)pnbsMenuRolesUsersDetailController;
         }
-        
+
 
         public static IAccountBillingController CreateAccountBillingController()
         {
@@ -163,11 +159,7 @@ namespace TelcoSystemCore.Common
             return (IPaymentModeController)paymentModeController;
         }
 
-        public static ICustomerAccountController CreateCustomerAccountController()
-        {
-            ICustomerAccountController customerAccountController = new CustomerAccountControllerImpl();
-            return (ICustomerAccountController)customerAccountController;
-        }
+
 
         public static ICusAccountDNController CreateCusAccountDNController()
         {
@@ -181,7 +173,7 @@ namespace TelcoSystemCore.Common
             return (IReceiptUploadController)receiptUploadController;
         }
 
-  
+
         public static IDocumentCategoryController CretaeDocumentCategoryController()
         {
             IDocumentCategoryController documentCategoryController = new DocumentCategoryCpntrollerImpl();

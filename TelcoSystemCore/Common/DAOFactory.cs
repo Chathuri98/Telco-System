@@ -52,11 +52,7 @@ namespace TelcoSystemCore.Common
             return (IBankBillPaymentsDAO)bankBillPaymentsDAO;
         }
 
-        public static IPnbsUsersDAO CreateGetPnbsUsersDAO()
-        {
-            IPnbsUsersDAO PnbsUsersDAO = new PnbsUsersSqlDAOImpl();
-            return (IPnbsUsersDAO)PnbsUsersDAO;
-        }
+
 
         //cmLogComplain
         public static ICmLogComplainsDAO CreateCmLogComplainsDAO()
@@ -66,11 +62,7 @@ namespace TelcoSystemCore.Common
         }
 
         //CustomerAccount
-        public static ICustomerAccountDAO CreateCustomerAccountDAO()
-        {
-            ICustomerAccountDAO customerAccountDAO = new CustomerAccountSqlDAOImpl();
-            return (ICustomerAccountDAO)customerAccountDAO;
-        }
+
 
         //Additional data pack request
         public static IAdditionalDataPackRequestDAO CreateAdditionalDataPackRequestDAO()
@@ -144,11 +136,7 @@ namespace TelcoSystemCore.Common
             IPnbsMenuRolesUsersDAO pnbsMenuRolesUsersDAO = new PnbsMenuRolesUsersSqlDAOImpl();
             return (IPnbsMenuRolesUsersDAO)pnbsMenuRolesUsersDAO;
         }
-        public static IPnbsUsersDAO CreatePnbsUsersDAO()
-        {
-            IPnbsUsersDAO pnbsUsersDAO = new PnbsUsersSqlDAOImpl();
-            return (IPnbsUsersDAO)pnbsUsersDAO;
-        }
+
 
         public static IPaymentModeDAO CreatePaymentModeDAO()
         {
