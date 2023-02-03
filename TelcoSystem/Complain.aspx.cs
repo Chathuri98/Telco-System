@@ -108,17 +108,17 @@ namespace TelcoSystem
 
                     //customerAccount
                    
-                    acc_code.Text = listCustomerAccount[0].AccountId;
+                    acc_code.Text = listCustomerAccount[0].accountId;
 
-                    var ad1 = listCustomerAccount[0].AddressLine1;
-                    var ad2 = listCustomerAccount[0].AddressLine2;
-                    var ad3 = listCustomerAccount[0].AddressLine3;
+                    var ad1 = listCustomerAccount[0].addressLine1;
+                    var ad2 = listCustomerAccount[0].addressLine2;
+                    var ad3 = listCustomerAccount[0].addressLine3;
 
                     var address = ad1 + ", " + ad2 + ", " + ad3;
 
                     account_address.Text = address;
 
-                    city.Text = listCustomerAccount[0].City;
+                    city.Text = listCustomerAccount[0].city;
 
                     //additional data pack request
                     user_code.Text = listAccountLocation[0].AccountLocationId;

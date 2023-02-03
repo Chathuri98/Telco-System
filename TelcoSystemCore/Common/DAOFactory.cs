@@ -144,7 +144,7 @@ namespace TelcoSystemCore.Common
             return (IPaymentModeDAO)paymentModeDAO;
         }
 
-
+     
 
         public static ICusAccountDNDAO CreateCusAccountDNDAO()
         {

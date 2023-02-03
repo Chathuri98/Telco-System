@@ -101,6 +101,7 @@
     <Compile Include="Controller\LocationProfileController.cs" />
     <Compile Include="Controller\PnbsMenuRolesUsersController.cs" />
     <Compile Include="Controller\LteLoginController.cs" />
+    <Compile Include="Controller\PnbsUsersController.cs" />
     <Compile Include="Domain\AccountLocation.cs" />
     <Compile Include="Domain\AdditionalDataPackRequest.cs" />
     <Compile Include="Domain\BankBillPayment.cs" />
@@ -140,6 +141,7 @@
     <Compile Include="Infrastructure\ComplainRemarksDAO.cs" />
     <Compile Include="Infrastructure\ComSectionsMastersDAO.cs" />
     <Compile Include="Infrastructure\CusCmCategoryTypeMastertomer.cs" />
+    <Compile Include="Domain\CustomerAccount.cs" />
     <Compile Include="Domain\Document.cs" />
     <Compile Include="Domain\PaymentMode.cs" />
     <Compile Include="Domain\PaymentType.cs" />
@@ -152,6 +154,7 @@
     <Compile Include="Infrastructure\LocationProfileDAO.cs" />
     <Compile Include="Infrastructure\PnbsMenuRolesUsersDAO.cs" />
     <Compile Include="Infrastructure\LteLoginDAO.cs" />
+    <Compile Include="Infrastructure\PnbsUsersDAO.cs" />
     <Compile Include="Infrastructure\ReceiptDetailDAO.cs" />
     <Compile Include="Infrastructure\ReceiptMasterDAO.cs" />
     <Compile Include="Infrastructure\DocumentCategoryDAO.cs" />

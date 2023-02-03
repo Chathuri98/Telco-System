@@ -23,8 +23,8 @@ namespace TelcoSystem
             {
                 pnbs_id = Server.UrlDecode(Request.QueryString["id"]);
 
-                txtLoggedName.InnerText = pnbs_id;
-                txtSubLoggedName.InnerText = pnbs_id;
+                //txtLoggedName.InnerText = pnbs_id;
+                //txtSubLoggedName.InnerText = pnbs_id;
 
                 BindSections();
                 BindDataSource();

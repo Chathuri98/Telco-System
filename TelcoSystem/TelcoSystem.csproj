@@ -951,8 +951,6 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
-    <Content Include="ViewComplains.aspx" />
-    <Content Include="Customer.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -1083,20 +1081,6 @@
     </Compile>
     <Compile Include="Validate.aspx.designer.cs">
       <DependentUpon>Validate.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ViewComplains.aspx.cs">
-      <DependentUpon>ViewComplains.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ViewComplains.aspx.designer.cs">
-      <DependentUpon>ViewComplains.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Customer.aspx.cs">
-      <DependentUpon>Customer.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Customer.aspx.designer.cs">
-      <DependentUpon>Customer.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
