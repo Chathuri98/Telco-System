@@ -181,8 +181,6 @@ namespace TelcoSystemCore.Domain
         [DBField("top_customer_stat")]
         public string topcustomerStat { get; set; }
 
-
-
         [DBField("policy_apply_date")]
         public DateTime posicyApplyDate { get; set; }
 

@@ -14,8 +14,6 @@ namespace TelcoSystemCore.Infrastructure
         int SaveMe(CustomerAccount customerAccount, DbConnection dbConnection);
         int UpdateMe(CustomerAccount customerAccount, DbConnection dbConnection);
         List<CustomerAccount> GetCustomerAccountDetailList(DbConnection dbConnection, string phoneNumber);
-
-        //
         int Save(CustomerAccount customerAccount, DbConnection dbConnection);
         int Update(CustomerAccount customerAccount, DbConnection dbConnection);
         int Delete(CustomerAccount customerAccount, DbConnection dbConnection);
