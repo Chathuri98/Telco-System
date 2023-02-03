@@ -144,7 +144,6 @@
     <Compile Include="Infrastructure\ComplainRemarksDAO.cs" />
     <Compile Include="Infrastructure\ComSectionsMastersDAO.cs" />
     <Compile Include="Infrastructure\CusCmCategoryTypeMastertomer.cs" />
-    <Compile Include="Domain\CustomerAccount.cs" />
     <Compile Include="Domain\Document.cs" />
     <Compile Include="Domain\PaymentMode.cs" />
     <Compile Include="Domain\PaymentType.cs" />
